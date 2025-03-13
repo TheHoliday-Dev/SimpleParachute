@@ -1,0 +1,9 @@
+name: SimpleParachute
+version: '${project.version}'
+main: com.holiday.simpleparachute.Main
+api-version: '1.21'
+libraries:
+  - com.squareup.okhttp3:okhttp:4.9.0
+commands:
+  parachute:
+    description: Parachute
